@@ -44,7 +44,7 @@ d(resourceId="com.netease.snailread:id/tv_logout").click()
 d(resourceId="com.netease.snailread:id/dialog_sr_right").click()
 
 #退出应用
-for x in range(4):
+for x in range(5):
     d.press("back")
     sleep(0.5)
 # 停止app
