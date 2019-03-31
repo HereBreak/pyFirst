@@ -5,7 +5,7 @@ from __future__ import print_function
 
 import re
 import socket
-# import whichcraft
+import whichcraft
 import subprocess
 from adb.client import Client as AdbClient
 from adb import InstallError
